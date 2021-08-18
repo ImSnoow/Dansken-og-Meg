@@ -10,18 +10,25 @@ const model ={
 
 
   //felles data
-  categories: [
+  categoriesFurniture: [
       {id: 1, name: 'møbler'},
       {id: 2, name: 'stoler', parentId: 1 },
-      {id: 3, name: 'bord', parentId: 2 },
+      {id: 3, name: 'bord', parentId: 1 },
 
   ],
-  categories: [
+  categoriesClothes: [
       {id: 1, name: 'klær og tilbehør'},
       {id: 2, name: 'kjoler', parentId: 1 },
-      {id: 3, name: 'bukser', parentId: 2 },
+      {id: 3, name: 'bukser', parentId: 1 },
 
   ],
+
+  categoriesKnicknacks: [
+    {id: 1, name: 'Småting'},
+    {id: 2, name: 'skåler', parentId: 1 },
+    {id: 3, name: '', parentId: 1 },
+
+],
   
   products: [
       {
