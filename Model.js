@@ -1,43 +1,43 @@
-const model={
-    app:{
- currentPage:"Home"
-   },
-}
-var products = { 
-   123: {
-    name: '',
-    desc: '',
-    img: '',
-    price: 2034
+const model ={
+
+  //app-nivå ting
+  app: {
+      currentPage: 'Home',
+      Login: 'User'
   },
-  124: {
-    name: ' ',
-    desc: ' ',
-    img: '  ',
-    price: 1247
-  },
-  125: {
-    name: '',
-    desc: '',
-    img: '',
-    price: 2034
-  },
-  126: {
-    name: ' ',
-    desc: ' ',
-    img: '  ',
-    price: 1247
-  },
-   127: {
-    name: '',
-    desc: '',
-    img: '',
-    price: 2034
-  },
-  128: {
-    name: ' ',
-    desc: ' ',
-    img: '  ',
-    price: 1247
-  },
-}
+
+  //inputfelter til hver side
+
+
+  //felles data
+  categories: [
+      {id: 1, name: 'møbler'},
+      {id: 2, name: 'stoler', parentId: 1 },
+      {id: 3, name: 'bord', parentId: 2 },
+
+  ],
+  categories: [
+      {id: 1, name: 'klær og tilbehør'},
+      {id: 2, name: 'kjoler', parentId: 1 },
+      {id: 3, name: 'bukser', parentId: 2 },
+
+  ],
+  
+  products: [
+      {
+      name : 'Wooden chair',
+      price : 600,
+      stock: 10,
+      description: 'Komfortabel kjøkken stol',
+      image:'',
+      },
+  ],
+
+};
+  /*
+To spørsmål for hver side:
+
+1. Hvilke data trenger vi i modellen for å kunne vise dette skjermbildet? (query)
+
+2. Hva kan man gjøre på dette skjermbildet - og hvordan skal den endringen lagres i modellen? (command)
+*/
