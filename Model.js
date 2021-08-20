@@ -3,7 +3,7 @@ const model ={
   //app-nivå ting
   app: {
       currentPage: 'Home',
-      loggedInUser: 'User'
+      loggedInUser: 'User',
   },
 
   //inputfelter til hver side
@@ -15,9 +15,13 @@ const model ={
     addProducts: "Legg til produkt",  
     },
 
-  menu: {
-
-  }
+  menu: [
+    {
+    Furniture: 'Møbler',
+    Clothing: 'Klær og tilbehør',
+    Knicknacks: 'Småting',
+    },
+  ],
 
   //felles data
   categoriesFurniture: [
