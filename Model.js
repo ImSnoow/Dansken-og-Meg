@@ -3,11 +3,21 @@ const model ={
   //app-nivå ting
   app: {
       currentPage: 'Home',
-      Login: 'User'
+      loggedInUser: 'User'
   },
 
   //inputfelter til hver side
+  login: {
+    username: "Brukernavn",
+    password: "Passord",
+  },
+    adminSite: {
+    addProducts: "Legg til produkt",  
+    },
 
+  menu: {
+
+  }
 
   //felles data
   categoriesFurniture: [
@@ -17,6 +27,7 @@ const model ={
       {id: 4, name: 'kommoder', parentId: 1 },
       {id: 5, name: 'hyller', parentId: 1 },
   ],
+  
   categoriesClothes: [
       {id: 1, name: 'klær og tilbehør'},
       {id: 2, name: 'kjoler', parentId: 1 },
@@ -27,7 +38,6 @@ const model ={
       {id: 7, name: 'sko', parentId: 1 },
       {id: 8, name: 'vesker', parentId: 1 },
       {id: 9, name: 'smykker', parentId: 1 },
-
   ],
 
   categoriesKnicknacks: [
@@ -38,8 +48,7 @@ const model ={
     {id: 5, name: 'servise', parentId: 1 },
     {id: 6, name: 'krukker', parentId: 1 },
     {id: 7, name: 'fat', parentId: 1 },
-
-],
+  ],
   
   products: [
       {
