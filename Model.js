@@ -55,15 +55,67 @@ const model ={
   ],
   
   products: [
+      
+    Stoler:[
+      
       {
-      name : 'Wooden chair',
-      price : 600,
+      name : 'Stol av Lær',
+      price : 69,
       stock: 10,
-      description: 'Komfortabel kjøkken stol',
+      description: 'Komfortabel lenestol',
       image:'',
       },
-  ],
+  
+      {
+      name : 'antikk stol',
+      price : 100,
+      stock: 10,
+      description: 'Pen antikk stol',
+      image:'',
+      },
+      
+      {
+      name : 'stol i stoff',
+      price : 400,
+      stock: 10,
+      description: 'Fin og komfortabel stol',
+      image:'',
+      },
 
+    {
+      name : 'Trestol',
+      price : 69000,
+      stock: 10,
+      description: 'litt overpriset stol',
+      image:'',
+      },
+      
+    {
+      name : 'Plastikkstol',
+      price : 10000,
+      stock: 10,
+      description: 'Stol laget av den mest delikate plastikk!',
+      image:'',
+      },
+    
+    {
+      name : 'Svarthvit stol',
+      price : 10000,
+      stock: 10,
+      description: 'sannelig ikke et bilde av en stol',
+      image:'',
+      },
+      
+      {
+      name : 'Rosa antikk stol',
+      price : 10000,
+      stock: 10,
+      description: 'I love pink',
+      image:'',
+      },
+  
+    ],
+  ],
 };
   /*
 To spørsmål for hver side:
