@@ -56,7 +56,7 @@ const model ={
   
   products: [
       
-    Stoler:[
+    Stoler = [
       
       {
       name : 'Stol av Lær',
