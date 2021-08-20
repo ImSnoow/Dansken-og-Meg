@@ -25,23 +25,23 @@ const model ={
 
   //felles data
   categoriesFurniture: [
-      {id: 1, name: 'møbler'},
-      {id: 2, name: 'stoler', parentId: 1 },
-      {id: 3, name: 'bord', parentId: 1 },
-      {id: 4, name: 'kommoder', parentId: 1 },
-      {id: 5, name: 'hyller', parentId: 1 },
+    {id: 1, name: 'møbler'},
+    {id: 2, name: 'stoler', parentId: 1 },
+    {id: 3, name: 'bord', parentId: 1 },
+    {id: 4, name: 'kommoder', parentId: 1 },
+    {id: 5, name: 'hyller', parentId: 1 },
   ],
   
   categoriesClothes: [
-      {id: 1, name: 'klær og tilbehør'},
-      {id: 2, name: 'kjoler', parentId: 1 },
-      {id: 3, name: 'bukser', parentId: 1 },
-      {id: 4, name: 'skjørt', parentId: 1 },
-      {id: 5, name: 'jakker', parentId: 1 },
-      {id: 6, name: 'kåper', parentId: 1 },
-      {id: 7, name: 'sko', parentId: 1 },
-      {id: 8, name: 'vesker', parentId: 1 },
-      {id: 9, name: 'smykker', parentId: 1 },
+    {id: 1, name: 'klær og tilbehør'},
+    {id: 2, name: 'kjoler', parentId: 1 },
+    {id: 3, name: 'bukser', parentId: 1 },
+    {id: 4, name: 'skjørt', parentId: 1 },
+    {id: 5, name: 'jakker', parentId: 1 },
+    {id: 6, name: 'kåper', parentId: 1 },
+    {id: 7, name: 'sko', parentId: 1 },
+    {id: 8, name: 'vesker', parentId: 1 },
+    {id: 9, name: 'smykker', parentId: 1 },
   ],
 
   categoriesKnicknacks: [
@@ -56,7 +56,8 @@ const model ={
   
   products: [
       
-    Stoler = [
+    Møbler = [
+      Stoler = [
       
       {
       name : 'Stol av Lær',
@@ -82,7 +83,7 @@ const model ={
       image:'',
       },
 
-    {
+      {
       name : 'Trestol',
       price : 69000,
       stock: 10,
@@ -90,7 +91,7 @@ const model ={
       image:'',
       },
       
-    {
+      {
       name : 'Plastikkstol',
       price : 10000,
       stock: 10,
@@ -98,9 +99,9 @@ const model ={
       image:'',
       },
     
-    {
+      {
       name : 'Svarthvit stol',
-      price : 10000,
+      price : 10,
       stock: 10,
       description: 'sannelig ikke et bilde av en stol',
       image:'',
@@ -113,9 +114,14 @@ const model ={
       description: 'I love pink',
       image:'',
       },
-  
+     ],
+   
+      Bord =[],
+      kommoder =[],
+      hyller =[], 
+   
     ],
-  ],
+ ],
 };
   /*
 To spørsmål for hver side:
