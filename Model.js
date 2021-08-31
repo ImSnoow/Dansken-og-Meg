@@ -29,14 +29,18 @@ const model = {
   ],
 
   shoppingCart: [
+      { productId: 1, count: 2 },
+      { productId: 2, count: 1 },
+  ],
 
-  {
-    Navn:'',
-    Adresse:'',
-    postnr:'',
-    Epost: '',
-    tlf:'',
-  },
+  orders: [{
+      date: '2021-08-31',
+      items: [
+          { productId: 1, count: 2 },
+          { productId: 2, count: 1 },
+      ],
+      status: 'ordred',
+  }],
 ],
   
   checkout: {
@@ -72,6 +76,7 @@ const model = {
   products: [
 
       {
+        id: 1,
         name: 'Stol av Lær',
         price: 69,
         stock: 10,
