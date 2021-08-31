@@ -41,7 +41,6 @@ const model = {
       ],
       status: 'ordred',
   }],
-],
   
   checkout: {
     betal: 'Betal',
