@@ -15,6 +15,19 @@ const model = {
       addProducts: "Legg til produkt",
   },
 
+  registerUser: [
+    {
+    navn: '',
+    etternavn: '',
+    epost: '',
+    tlf:'',
+    adresse:'',
+    postnr:'',
+    passord:'',
+    bekreftPassord:'',  
+    },
+  ],
+
   shoppingCart: [
 
   {
